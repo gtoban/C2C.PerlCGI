@@ -1,0 +1,1 @@
+SELECT * FROM timesheet WHERE tdate >= STR_TO_DATE(  '2015-10-09',  '%Y-%m-%d' ) AND userid IN (2)

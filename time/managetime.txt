@@ -1,0 +1,168 @@
+Status: 302 Found
+Location: http://www.c2c-hit.net/c2cmobile/login.cgi
+
+Content-Type: text/html; charset=ISO-8859-1
+
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"><script src="http://code.jquery.com/jquery-1.11.3.min.js"></script><script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script></head>
+<body><div data-role="page">
+<div data-role="header">
+ <h1>C2C Enter Time</h1>
+    <div data-role="navbar">
+      <ul>
+        <li>
+ <form method="post" action="http://www.c2c-hit.net/c2cmobile/home.cgi">
+  <input type="submit" value="Home">
+  </form>
+</li>
+        <li>
+ <form method="post" action="http://www.c2c-hit.net/c2cmobile/edituser.cgi">
+  <input type="submit" value="Edit My User">
+  </form>
+</li>
+      </ul>
+    </div>
+</div>
+<div data-role="main" class="ui-content">
+<p>You can limit results by setting your search here.</p><form method="post">
+<input type="hidden" name="suser" value=""/>   <label for="sclient">Client(s)</label>
+<select name="sclient" id="sclient" data-native-menu="false" data-mini="true" multiple="multiple" size="5">
+<option value=""></option>
+   </select>
+   <label for="sdatetype">Date Type</label>
+<select name="sdatetype" id="sdatetype" data-native-menu="false" data-mini="true" multiple="multiple" size="3">
+</select>
+<p>From Date: Year Month Day</p>
+<p>The target date is greater than or equal to:</p><fieldset data-role="controlgroup" data-type="horizontal">
+<label for="sfyear">Year</label>
+<select name="sfyear" id="sfyear">
+<option value="" selected></option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2014">2014</option>
+</select>
+<label for="sfmonth">Month</label>
+<select name="sfmonth" id="sfmonth">
+<option value="" selected></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>
+<label for="sfday">Day</label>
+<select name="sfday" id="sfday">
+<option value="" selected></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+</fieldset>
+<p>To Date: Year Month Day</p>
+<p>The target date is less than or equal to:</p><fieldset data-role="controlgroup" data-type="horizontal">
+<label for="styear">Year</label>
+<select name="styear" id="styear">
+<option value="" selected></option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2014">2014</option>
+</select>
+<label for="stmonth">Month</label>
+<select name="stmonth" id="stmonth">
+<option value="" selected></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+</select>
+<label for="stday">Day</label>
+<select name="stday" id="stday">
+<option value="" selected></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+</fieldset>
+   <label for="shours">Hours</label>
+	  <input type="textfield" name="shours" id="shours" value="">
+<p>The description "Contains":</p> 	<label for="sdescription">Description</label>
+ 	<textarea cols="40" rows="8" name="sdescription" id="sdescription"></textarea>
+<input type="submit" name="submit" value="submit">
+</form>
+</div>
+<div data-role="footer">
+ <h1>Coast to Coast Innovative Solutions</h1>
+</div></div>
+
+</body>
+</html>
